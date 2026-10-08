@@ -1,11 +1,11 @@
-# pro3. perform global|local alignment
+# pro1. perform global|local alignment
 * your name
 * student ID
 
 ## Description
 
 * Write a Python script to perform a global or local alignment.
-* Creating your own script, i.e. hw3.py.
+* Creating your own script, i.e. pro1.py.
 * In this program, library Biostrings is only used to parse input fasta file.
 * Packages you can use: numpy, pandas, Bio
 * You should write a program with a function named alignment, ie.
@@ -16,7 +16,7 @@ def alignment(input_path, score_path, output_path, aln, gap):
     .
     .
 ```
-* hw3_ref.py: You can start from this reference code and try to write your own comment in English.
+* pro1_ref.py: You can start from this reference code and try to write your own comment in English.
 * If there is more than one local alignment with the same highest score, you should output local alignments with the maximum length. 
 * If there is more than one local alignment with the same highest score and length, you should output those local alignments in string sequential order according to protein1 and then protein2, i.e., 
   ```
